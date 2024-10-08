@@ -47,18 +47,13 @@ h3 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #007bff;
     font-size: 16px;
     display: block;
     text-align: center;
     margin-top: 20px;
 }
-
-a:hover {
-    text-decoration: underline;
-}
-
 
 article:hover {
     border-color: #007bff;
