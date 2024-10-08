@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="/css/catalog.css">
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать в наш магазин!</h1>
+</header>
+
+
+<h2>Вы можете прочитать творчесво независимых авторов или стать творцом и поделитсья своим творчеством</h2>
+
+<nav>
+    <ul>
+        <li>
+            <span>Нет аккаунта?</span> 
+            <a href="{{ path('app_reg') }}">Зарегистрироваться</a>
+        </li>
+        <li>
+            <a href="{{ path('app_login') }}">Войти</a>
+        </li>
+        <li>
+            <span>Есть вопросы?</span> 
+            <a href="{{ path('app_masha') }}">Обратная связь</a>
+        </li>
+        <li>
+            <a href="{{ path('app_lib') }}">Каталог книг</a>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>

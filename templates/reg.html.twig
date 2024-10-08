@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+<h1>Регистрация</h1>
+
+<form action="" method="post">
+    <fieldset>
+        <legend>Личные данные</legend>
+        <label for="name">login:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Электронная почта:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Безопасность</legend>
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Подтвердите пароль:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+    </fieldset>
+
+    <button type="submit">Зарегистрироваться</button>
+</form>
+<p><a href="{{ path('app_home') }}">главная</a></p>  
+</body>
+</html>
+
