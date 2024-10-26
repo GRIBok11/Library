@@ -45,4 +45,10 @@ class PageController extends AbstractController
     {
         return $this->render('reg.html.twig');
     }
+
+    #[Route('/test', name: 'test')]
+    public function index6(): Response
+    {
+        return $this->render('test.html.twig');
+    }
 }
